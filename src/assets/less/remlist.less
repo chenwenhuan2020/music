@@ -1,0 +1,213 @@
+.remlist {
+    .auto-img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .nav {
+      .left {
+        width: 20px;
+        height: 20px;
+        display: block;
+      }
+      h3 {
+        color: #ff8080;
+        font-size: 16px;
+      }
+    }
+    .top {
+      padding: 20px 10px;
+      background-color: #f7e8f0;
+      display: flex;
+      justify-content: space-between;
+      .top-img {
+        flex: 0 0 20%;
+        height: 80px;
+      }
+      .top-title {
+        flex: 0 0 60%;
+        height: auto;
+        font-size: 16px;
+        color: #665566;
+        display: flex;
+        flex-direction: column;
+        .p {
+          color: #fd5e53;
+        }
+        .toux {
+          width: 100%;
+          height: auto;
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          .t-img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+          }
+          .t-txt {
+            color: blue;
+            font-size: 12px;
+            line-height: 25px;
+            height: auto;
+            margin-right: 20px;
+          }
+          .t-cj {
+            color: #656566;
+            font-size: 10px;
+            line-height: 25px;
+            height: auto;
+          }
+        }
+        .top-txt {
+          width: 100%;
+          display: -webkit-box;
+          margin-top: 5px;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          font-size: 10px;
+        }
+        .btn {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          button {
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 12px;
+            display: flex;
+            margin-right: 10px;
+            width: 80px;
+            align-items: center;
+            border: 1px solid #f1c6de;
+            border-radius: 5px;
+            .img {
+              flex: 0 0 25%;
+              height: auto;
+            }
+            .txt {
+              flex: 0 0 75%;
+              height: auto;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 1;
+              overflow: hidden;
+              text-align: left;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+    .center {
+      padding: 0 10px 10px 10px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      .left {
+        span:nth-of-type(1) {
+          font-size: 12px;
+          font-weight: bold;
+        }
+        span:nth-of-type(2) {
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+      .right {
+        span:nth-of-type(1) {
+          font-size: 12px;
+          font-weight: bold;
+          margin-right: 5px;
+        }
+        span:nth-of-type(2) {
+          font-size: 10px;
+          color: red;
+        }
+      }
+    }
+    .list {
+      padding: 0 10px;
+      height: auto;
+      .list-ul {
+        width: 100%;
+        height: auto;
+        .item {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 0;
+          border-top: 1px solid #f1c6de;
+          color: #665566;
+          .item-num {
+            flex: 0 0 5%;
+            font-size: 10px;
+            text-align: center;
+          }
+          .item-new {
+            flex: 0 0 6%;
+            font-size: 10px;
+            text-align: center;
+          }
+          .item-zj {
+            font-size: 10px;
+            flex: 0 0 20%;
+            text-align: center;
+          }
+          .item-btn {
+            flex: 0 0 4%;
+            height: 15px;
+          }
+          .item-signame {
+            flex: 0 0 40%;
+            font-size: 10px;
+          }
+          .item-time {
+            flex: 0 0 12%;
+            height: auto;
+            font-size: 10px;
+            text-align: center;
+            position: relative;
+  
+            .time-btn {
+              position: absolute;
+              left: -5px;
+              top: -5px;
+              width: 150%;
+              height: auto;
+              display: none;
+              background-color: white;
+              button {
+                background: none;
+                outline: none;
+                border: none;
+                width: 18px;
+                height: 18px;
+                float: left;
+              }
+              &.activeTime {
+                display: block;
+              }
+            }
+          }
+          .item-name {
+            flex: 0 0 15%;
+            font-size: 10px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }

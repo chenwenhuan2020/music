@@ -1,0 +1,82 @@
+.auto-img {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  .hot {
+    font-size: 12px;
+    padding: 0 15px;
+    padding-bottom: 10px;
+  }
+  .list {
+    padding: 0 10px;
+    height: auto;
+    .list-ul {
+      width: 100%;
+      height: auto;
+      .item {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-top: 1px solid #f1c6de;
+        color: #665566;
+        .item-num {
+          flex: 0 0 5%;
+          font-size: 10px;
+          text-align: center;
+        }
+        .item-zj {
+          font-size: 10px;
+          flex: 0 0 20%;
+          text-align: center;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+        }
+        .item-signame {
+          flex: 0 0 45%;
+          font-size: 10px;
+          font-weight: bold;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+        }
+        .item-time {
+          flex: 0 0 12%;
+          height: auto;
+          font-size: 10px;
+          text-align: center;
+          position: relative;
+          .time-btn {
+            position: absolute;
+            left: 0;
+            top: -5px;
+            width: 150%;
+            height: auto;
+            display: none;
+            background-color: white;
+            button {
+              background: none;
+              outline: none;
+              border: none;
+              width: 20px;
+              height: 20px;
+              float: left;
+            }
+            &.activeTime {
+              display: block;
+            }
+          }
+        }
+        .item-btn {
+          flex: 0 0 4%;
+          height: 15px;
+        }
+      }
+    }
+  }

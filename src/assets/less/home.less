@@ -1,0 +1,365 @@
+.home {
+    width: 100%;
+    margin-bottom: 100px;
+
+    .auto-img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .van-swipe .van-swipe-item {
+        color: white;
+        font-size: 20px;
+        line-height: 150px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .weight {
+        font-weight: bold;
+    }
+
+    .search {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .banner {
+        margin-top: 54px;
+    }
+
+    .search {
+        .van-search {
+            padding: 0;
+            margin: 0;
+            background-color: #F6E5F5;
+            padding: 10px;
+        }
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: auto;
+
+        .van-swipe {
+            width: 100%;
+            height: auto;
+
+            .item {
+                width: 100%;
+                height: 180px;
+            }
+
+        }
+
+        .login {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .ban1 {
+        background-color: #F6E5F5;
+        padding: 10px;
+
+        .ban1-img {
+            width: 100%;
+            background-color: #fff;
+
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .recommend {
+        padding: 10px;
+
+        .recommend-title {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            width: 100%;
+            padding: 10px 0;
+            align-items: center;
+            justify-content: space-between;
+
+            .recommend-p {
+                padding: 0;
+                margin: 0;
+                color: #FF80B0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .recommend-img {
+                padding: 0;
+                margin: 0;
+                height: 20px;
+                width: 20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .music {
+        width: 100%;
+        height: auto;
+
+        .musicList {
+            padding: 0 10px;
+
+            .music-ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .music-li {
+                    flex: 0 0 30.5%;
+
+                    .music-img {
+                        width: 100%;
+                        position: relative;
+                        background-color: white;
+
+                        .music-img-p {
+                            padding: 0;
+                            margin: 0;
+                            position: absolute;
+                            right: 5px;
+                            top: 5px;
+                            background-color: #FFC7C7;
+                            border-radius: 10px;
+
+                            p {
+                                padding: 0;
+                                margin: 0;
+                                color: white;
+                                font-size: 10px;
+                                padding: 0 5px;
+                            }
+                        }
+
+                        .music-btn {
+                            width: 30px;
+                            height: 30px;
+                            background-color: #E1CCEC;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .music-text {
+                        margin: 0;
+                        padding: 0;
+                        padding-bottom: 10px;
+
+                        p {
+                            padding: 0;
+                            margin: 0;
+                            padding: 2px 0 2px 5px;
+                            font-size: 10px;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+
+                            &:nth-of-type(1) {
+                                color: #FF80B0;
+                                font-weight: bold;
+                            }
+
+                            &:nth-of-type(2) {
+                                color: #FF80B0;
+                                font-weight: bold;
+                            }
+
+                            &:nth-of-type(3) {
+                                color: #EA7AD7;
+                                font-weight: bold;
+                                display: -webkit-box;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .official {
+        /deep/ .van-grid {
+            /deep/ .van-grid-item {
+                /deep/ .van-grid-item__content {
+                    padding-bottom: 0;
+                    margin: 0;
+
+                    p {
+                        color: #FF80B0;
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin-top: 5px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+
+    .specialarea {
+        .icon {
+            position: relative;
+
+            p {
+                color: #FF80B0;
+                font-weight: bold;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        }
+
+        height: auto;
+
+        /deep/ .van-tab__text {
+            height: 0;
+            display: block;
+        }
+
+        /deep/ .van-tabs__wrap {
+            height: 0;
+            height: auto;
+        }
+
+        /deep/ .van-tabs__nav {
+            padding: 0;
+            margin: 0;
+            height: 0;
+            height: 80px
+        }
+
+        /deep/ .van-tab {
+            padding: 0;
+            margin: 0;
+            height: 0;
+        }
+
+        /deep/ .van-icon {
+            width: 110px;
+            height: 80px;
+            margin: 0 8px;
+            border-radius: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                border-radius: 10px;
+            }
+        }
+
+        /deep/ .van-tabs__line {
+            background: transparent;
+        }
+    }
+
+    .member {
+        height: auto;
+
+        /deep/ .van-tabs__line {
+            background: transparent;
+        }
+
+        /deep/ .van-tab__text {
+            height: 0;
+            display: block;
+        }
+
+        /deep/ .van-tab {
+            height: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        /deep/ .van-tabs__nav {
+            height: 0;
+            padding: 0;
+            margin: 0;
+            height: 130px;
+        }
+
+        /deep/ .van-tabs__wrap {
+            height: 0;
+            height: auto;
+        }
+
+        /deep/ .mem-icon {
+            margin: 0;
+            margin-right: 5px;
+            padding: 0 10px;
+            height: 130px;
+            width: 320px;
+            border-radius: 10px;
+
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .home-bottom {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .home-logo {
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo-img {
+            width: 140px;
+            height: 120px;
+            margin-bottom: 10px;
+        }
+
+        .logo-title {
+            margin-bottom: 5px;
+        }
+    }
+
+}

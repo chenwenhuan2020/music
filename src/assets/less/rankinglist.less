@@ -1,0 +1,180 @@
+.rankinglist {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    .auto-img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .nav {
+      .left {
+        width: 20px;
+        height: 20px;
+        display: block;
+      }
+      h3 {
+        color: #ff8080;
+        font-size: 16px;
+      }
+    }
+    .top {
+      height: auto;
+      padding: 10px 10px;
+      background-color: #f7e8f0;
+      display: flex;
+      align-items: center;
+      .left {
+        flex: 0 0 20%;
+        height: 70px;
+        background-color: #fff;
+      }
+      .right {
+        flex: 0 0 75%;
+        margin-left: 10px;
+        .title {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .btn {
+          display: flex;
+          align-items: center;
+          button {
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 12px;
+            display: flex;
+            margin-right: 10px;
+            width: 80px;
+            margin-top: 10px;
+            align-items: center;
+            border: 1px solid #f1c6de;
+            border-radius: 5px;
+            .img {
+              flex: 0 0 25%;
+              height: auto;
+            }
+            .txt {
+              flex: 0 0 75%;
+              height: auto;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 1;
+              overflow: hidden;
+              text-align: left;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+    .center {
+      padding: 0 10px 10px 10px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      .left {
+        span:nth-of-type(1) {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        span:nth-of-type(2) {
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+      .right {
+        span:nth-of-type(1) {
+          font-size: 12px;
+          font-weight: bold;
+          margin-right: 5px;
+        }
+        span:nth-of-type(2) {
+          font-size: 10px;
+          color: red;
+        }
+      }
+    }
+    .list {
+      padding: 0 10px;
+      height: auto;
+      .list-ul {
+        width: 100%;
+        height: auto;
+        .item {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 0;
+          border-top: 1px solid #f1c6de;
+          .item-num {
+            flex: 0 0 5%;
+            font-size: 10px;
+            text-align: center;
+          }
+          .item-new {
+            flex: 0 0 6%;
+            font-size: 10px;
+            text-align: center;
+          }
+          .item-img {
+            flex: 0 0 8%;
+            height: 25px;
+          }
+          .item-btn {
+            flex: 0 0 4%;
+            height: 15px;
+          }
+          .item-signame {
+            flex: 0 0 40%;
+            font-size: 12px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+          }
+          .item-time {
+            flex: 0 0 12%;
+            height: auto;
+            font-size: 10px;
+            text-align: center;
+            position: relative;
+            .time-btn {
+              position: absolute;
+              left: -10px;
+              top: -5px;
+              width: 150%;
+              height: auto;
+              display: none;
+              background-color: white;
+              button {
+                background: none;
+                outline: none;
+                border: none;
+                width: 20px;
+                height: 20px;
+                float: left;
+              }
+              &.activeTime {
+                display: block;
+              }
+            }
+          }
+          .item-name {
+            flex: 0 0 15%;
+            font-size: 10px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
